@@ -1,0 +1,169 @@
+/* idk some colors ig
+    #000308 #03030a
+*/
+
+@font-face {
+    font-family: Terminus;
+    src: url(Terminus.ttf);
+}
+
+body {
+    background-color: rgb(2, 0, 2);
+    font-family: Terminus;
+    /*
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* short for stupid margin fix thing */
+
+.smft {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+#container {
+    text-align: center;
+    color: #dddddd;
+    margin: auto;
+    width: 760px;
+}
+
+.logo-header {
+    color: #dddddd;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 0.028em;
+}
+
+.page-navigation {
+    border: solid 1px #4b5a9b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    padding: 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right-text {
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+li {
+    display: inline;
+}
+
+.page-navigation a {
+    padding: 7px;
+    padding-bottom: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid 1px #4b5a9b;
+    border-bottom: none;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.page-navigation a.selected {
+    border-bottom: solid 3px rgb(2, 0, 2);
+    padding-bottom: 3px;
+}
+
+.page-navigation a.donate {
+    color: #ca6060;
+}
+
+.page-navigation a.donate:hover {
+    color: #4960c9;
+}
+
+#table-container {
+    border: 1px solid #1a1d30;
+}
+
+.backslash {
+    padding-left: 17px;
+    margin-top: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 14px 14px 14px;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+table a {
+    padding: 0px 10px 0px 10px
+}
+
+.table-num {
+    width: 3.3%;
+}
+
+.table-name {
+    width: 20%;
+}
+
+.table-desc {
+    width: 65%;
+}
+
+.table-action {
+    width: 11.4%;
+}
+
+th,
+td {
+    font-size: 12px;
+    padding: 0px 0px 0px 25px;
+}
+
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#article-container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1a1d30;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 4 / 1 / 2 / 4;
+}
+
+.div2 {
+    grid-area: 3 / 3 / 3 / 7;
+}

@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Pages(@crime_wiki)</title>
+    <title>Cyberfear-Article(@crime_wiki)</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/pages.css">
-    <link rel="stylesheet" href="style/colors.css">
+    <link rel="stylesheet" href="/style/colors.css">
+    <link rel="stylesheet" href="/style/pages.css">
 </head>
 
 <body>
@@ -36,38 +36,48 @@
                 <li><a href="https://crime.wiki/about/" class="">About</a></li>
                 <li><a href="https://crime.wiki/donate/" class="">Donate</a></li>
                 <h4 class="nav-right-text red small">
-                    <a class="donate" style="border: none;" href="https://crime.wiki/donate">
+                    <a class="donate" style="border: none;" href="https://crime.wiki/donate/">
                         XMR : 41jrNV9C8bgYDEsPC7Xzufe...
                     </a>
                 </h4>
             </ul>
         </nav>
-        <div id="table-container" class="smft">
-            <a class="small white left backslash">../</a>
-            <table>
-                <thead>
-                    <tr>
-                        <th style="padding: 0px" class="table-num">#</th>
-                        <th class="table-name">Name</th>
-                        <th class="table-desc">Desc</th>
-                        <th class="table-action">Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="padding: 0px; ">1</td>
-                        <td><a href="cybersecurity/ " class="green ">Cyber Security</a></td>
-                        <td>Everything related to hacking/security/apps/programming</td>
-                        <td><a href="https://crime.wiki/crime.zip " class="purple ">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 0px; ">2</td>
-                        <td><a class="grey">Crime Blog</a></td>
-                        <td>Blogging about recent crimes, criminals & there tactics</td>
-                        <td><a href="" class="grey">Coming soon</a></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div id="article-container" class="smft text-left">
+            <span class="medium"><a href="../" class="white">../</a></span>
+
+            <h3 class="medium">
+                <h3>Spyware Rank > <span class="red">Unknown but likely low/none</span></h3>
+            </h3>
+            <h4 class="small">
+                <p style="width:350px">
+                    Cyberfear is a great privacy email service that we found a couple weeks ago. Check it out.
+                </p>
+                <h3 class="medium">Cyberfear privacy</h3>
+                <p class="small">
+                    Cyberfear does not log anything from what it seems. Without a clear understanding and view of there data structure, we can't 100% verify this. BUT. Take a look at how their site functions, you can clearly see that it is trying to be as private as possible.
+                    <br>Lets prove this with one simple task, log in to cyberfear and refresh the page. It logs you out, this means that cyberfear is not retaining ANY information, not even enough information for spam protection, not enough information to check if you were logged in.
+                    <br>Session cookies dont exist, IP is only stored for around 5 mins from what we can tell (this is for spam protection, what do you expect its free)
+                    <br>We have never seen this from anyone before, this email service has amazing protection and has alot of potential. 
+                    <br>But with everything good comes downsides.
+                </p>
+                <h3 class="medium">The downsides</h3>
+                <p class="small">
+                    The current downsides we can see is that there most likely using a CDN to migrate DDoS attacks, the issue with this is that CDN's log alot of information to avoid spam and add the protection. This could possibly be used to link accounts to IP's
+                    <br>Another downside is that they are using Namecheap for their domain. This is a huge downside and they should migrate to something different like nicevps or atleast njal.la
+                    <br>All we can do now is hope that they reach out to us and ask for a better update to this article, their frontend is open source and there plugins too. We need to see some database proof to 100% make sure they are not retaining IP's that are stored for the spam protection. Until then it looks like thats it.
+                </p>
+                <h3 class="medium">Best way to use it?</h3>
+                <p class="small">
+                    We highly recommend you make an account with a random username (example: h34f80w@cyberfear.com). The reason we recommend this is because it makes it harder for people to guess your email, harder to link stuff to names you go by online and thus increases the anoniminity of your account.
+                    <br> We also recommend using Tor socks to access their site, this is to make sure you dont get logged by their ISP or CDN and get linked to that account (goes for everything tbh).
+                    <br> Make sure to use private mode on your librewolf or icecat browsers, use a random-user-agent extention and that should be good enough.
+                    <br> Basic opsec rules apply too.
+                </p>
+                <h3 class="medium">Final Conclusion</h3>
+                <p class="small">
+                    Honestly, this is a great email service, couple downsides but none that are super fucking haunting. Cyberfear has a great reputation and currently isnt to known. I highly recommend this email provider. Don't be stupid with it.
+                </p>
+            </h4>
         </div>
     </div>
 </body>
